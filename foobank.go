@@ -4,9 +4,7 @@ import (
 	"github.com/cstrong1122/moonlight"
 )
 
-type FooBankRateProvider struct {
-	parameters *moonlight.RateOptionParameters
-}
+type FooBankRateProvider struct{}
 
 func (b FooBankRateProvider) GetRateOptions(parameters *moonlight.RateOptionParameters) ([]moonlight.RateOption, error) {
 
